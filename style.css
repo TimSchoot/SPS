@@ -1,0 +1,40 @@
+/* steen papier schaar */
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.alles{
+    margin-top: 5%;
+}
+.buttons{
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.buttons:hover{
+    background-color: gray;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5em;
+  }
+  
+.player1, .player2 {
+    flex: 1; 
+  }
+  
+.player1 {
+    text-align: left;
+  }
+  
+.player2 {
+    text-align: right;
+  }
+  
