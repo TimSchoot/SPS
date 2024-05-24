@@ -10,7 +10,7 @@ body{
     background-color: rgb(0, 7, 23);
 }
 .alles{
-    margin-top: 5%;
+    margin-top: 20vh;
 }
 .buttons{
     padding: 15px 20px;
@@ -19,7 +19,7 @@ body{
     transition: 0.5s;
 }
 .buttons:hover{
-  background-color: gray;
+  background-color: BLUE;
 }
 .container {
   display: flex;
@@ -30,13 +30,13 @@ body{
 }
 
 #inputP1{
-    color: white;
+    color: GREEN;
 }
 #inputP2{
-    color: white;
+    color: RED;
 }
 #outcome{
-    color: white;
+    color: BLUE;
 }
   
 .player1, .player2 {
@@ -69,26 +69,32 @@ body{
 #schaarP1
 {
   background-color: green;
-  color: white;
+  color: BLACK;
   border: 2px solid black;
 }
 
 #steenP2,
 #papierP2,
-#schaarp2
+#schaarP2
 {
   background-color: rgba(255, 0, 0, 0.912);
-  color: white;
+  color: WHITE;
   border: 2px solid black;
 }
 
-#scoreP1,
-#scoreP2 
+#scoreP1{
+    color: GREEN;
+}
+
+
+#scoreP2
 {
-  color: white;
+  color: RED;
 }
 
 #opnieuw {
   margin-top: -15vh;
-
+  background-color: BLUE;
+    color: WHITE;
+  border: 0px;
 }
