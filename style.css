@@ -7,6 +7,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 7, 23);
 }
 .alles{
     margin-top: 5%;
@@ -18,23 +19,76 @@ body{
     transition: 0.5s;
 }
 .buttons:hover{
-    background-color: gray;
+  background-color: gray;
 }
 .container {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.5em;
-  }
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5em;
+  margin-top: -50vh;
+  color: white;
+}
+
+#inputP1{
+    color: white;
+}
+#inputP2{
+    color: white;
+}
+#outcome{
+    color: white;
+}
   
 .player1, .player2 {
-    flex: 1; 
-  }
+  flex: 1; 
+}
   
 .player1 {
-    text-align: left;
-  }
+  text-align: left;
+  margin-left: 5vw;
+  background-color: rgba(0, 128, 0, 0.912);
+  text-align: center;
+  padding: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
   
 .player2 {
-    text-align: right;
-  }
-  
+  text-align: right;
+  background-color: rgba(255, 0, 0, 0.912);
+  margin-right: 5vw;
+  margin-left: 60vw;
+  text-align: center;
+  padding: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#steenP1,
+#papierP1,
+#schaarP1
+{
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+}
+
+#steenP2,
+#papierP2,
+#schaarp2
+{
+  background-color: rgba(255, 0, 0, 0.912);
+  color: white;
+  border: 2px solid black;
+}
+
+#scoreP1,
+#scoreP2 
+{
+  color: white;
+}
+
+#opnieuw {
+  margin-top: -15vh;
+
+}

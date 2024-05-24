@@ -136,4 +136,3 @@ window.addEventListener('keyup', function(event) {
         schaarp2.click();
     } 
 });
-
