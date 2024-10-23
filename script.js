@@ -15,6 +15,7 @@ let scoreP1 = 0;
 let scoreP2 = 0;
 document.getElementById("scoreP1").textContent = `Score speler 1: ${scoreP1}`;
 document.getElementById("scoreP2").textContent = `Score speler 2: ${scoreP2}`;
+reset();
 
 steenP1.addEventListener("click", function() {
     inputP1.textContent = "STEEN";
